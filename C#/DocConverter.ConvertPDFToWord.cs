@@ -38,7 +38,7 @@ namespace DocConverterExamples
             // Convert the Word document from PDF to another format using Solid
             // Documents SDK. The second parameter determines the output file
             // format
-            DCDK.Results.DocConverterResult results =
+            DCDK.Results.DocConverterResult result =
                 docConverter.ConvertFromPDF(
                     $"{strPath}DocConverter.PDF.Input.pdf",
                     APDocConverter.FromPDFFunction.ToWordDocX,
