@@ -26,7 +26,7 @@ Set result = oDC.ConvertToPDF(_
         strPath & "DocConverter.RemoteConversion.pdf")
 
 ' Close the remote connection when finished
-docConverter.CloseRemoteConnection
+oDC.CloseRemoteConnection
 
 ' Output result
 WriteResult result
