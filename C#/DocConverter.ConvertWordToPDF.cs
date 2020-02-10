@@ -24,7 +24,7 @@ namespace DocConverterExamples
             // Convert the file to PDF
             // If the output parameter is not used the created PDF will use
             // the input string substituting the filename extension to 'pdf'
-            DCDK.Results.DocConverterResult results =
+            DCDK.Results.DocConverterResult result =
                 docConverter.ConvertToPDF(
                     $"{strPath}DocConverter.Word.Input.doc",
                     $"{strPath}DocConverter.ConvertWordToPDF.Output.pdf");
